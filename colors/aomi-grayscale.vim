@@ -16,7 +16,7 @@ let s:deep      = "#171a1f"
 let s:dull      = "#40444a"
 let s:gray      = "#78808a"
 let s:semiwhite = "#aeb9c2"
-let s:white     = "#e6edf3"
+let s:white     = "#e4ecf3"
 
 let s:bg_none      = " " .s:vmode ."bg=" .s:none
 let s:bg_black     = " " .s:vmode ."bg=" .s:black

@@ -21,4 +21,4 @@ Or, run the following command:
 ```
 
 ## Gallery
-![image](https://user-images.githubusercontent.com/44455895/229795939-13a66f62-c245-4a6a-b75a-3cea5fc95c05.png)
+![image](https://user-images.githubusercontent.com/44455895/229796642-c8bd72cb-5013-4ff7-9ba6-45e8da8e7b8d.png)

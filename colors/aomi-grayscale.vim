@@ -3,10 +3,8 @@ if exists("syntax_on")
   syntax reset
 endif
 let g:colors_name = "aomi-grayscale"
-set background=dark
 
 " TODO: cterm colors
-" TODO: light theme
 
 " Colors abbrev
 let s:vmode     = "gui"
@@ -17,6 +15,15 @@ let s:dull      = "#40444a"
 let s:gray      = "#78808a"
 let s:semiwhite = "#aeb9c2"
 let s:white     = "#e4ecf3"
+
+if &background == 'light'
+	let s:black     = "#ffffff"
+	let s:deep      = "#e9eff5"
+	let s:dull      = "#c7cfd6"
+	let s:gray      = "#9097a3"
+	let s:semiwhite = "#6e7781"
+	let s:white     = "#06070a"
+endif
 
 let s:bg_none      = " " .s:vmode ."bg=" .s:none
 let s:bg_black     = " " .s:vmode ."bg=" .s:black
@@ -82,7 +89,7 @@ exe "hi Todo"        .s:fmt_bold .s:fg_white     .s:bg_deep
 
 exe "hi SpecialKey"    .s:fmt_revb .s:fg_white     .s:bg_black
 exe "hi NonText"       .s:fmt_none .s:fg_gray      .s:bg_none
-exe "hi StatusLine"    .s:fmt_bold .s:fg_white     .s:bg_dull
+exe "hi StatusLine"    .s:fmt_none .s:fg_white     .s:bg_dull
 exe "hi StatusLineNC"  .s:fmt_none .s:fg_gray      .s:bg_deep
 exe "hi Visual"        .s:fmt_none .s:fg_none      .s:bg_dull
 exe "hi Directory"     .s:keyword
@@ -124,3 +131,7 @@ exe "hi MatchParen"    .s:fmt_none .s:fg_none      .s:bg_dull
 hi link CtrlPMatch Visual
 
 hi link LspErrorVirtualText Comment
+
+if &background == 'light'
+	exe "hi Visual"        .s:fmt_none .s:fg_none      .s:bg_deep
+endif

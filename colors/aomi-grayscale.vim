@@ -94,8 +94,8 @@ exe "hi StatusLineNC"  .s:fmt_none .s:fg_gray      .s:bg_deep
 exe "hi Visual"        .s:fmt_none .s:fg_none      .s:bg_dull
 exe "hi Directory"     .s:keyword
 exe "hi ErrorMsg"      .s:attention
-exe "hi IncSearch"     .s:fmt_revr .s:fg_white     .s:bg_black
-exe "hi Search"        .s:fmt_revr .s:fg_white     .s:bg_black
+exe "hi IncSearch"     .s:fmt_revr .s:fg_gray     .s:bg_black
+exe "hi Search"        .s:fmt_revr .s:fg_white    .s:bg_black
 exe "hi MoreMsg"       .s:normal
 exe "hi ModeMsg"       .s:normal
 exe "hi LineNr"        .s:fmt_none .s:fg_dull      .s:bg_none

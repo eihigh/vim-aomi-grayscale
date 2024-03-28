@@ -87,8 +87,8 @@ exe "hi Ignore"      .s:fmt_none .s:fg_none      .s:bg_none
 exe "hi Error"       .s:attention
 exe "hi Todo"        .s:fmt_bold .s:fg_white     .s:bg_deep
 
-exe "hi SpecialKey"    .s:fmt_revb .s:fg_white     .s:bg_black
-exe "hi NonText"       .s:fmt_none .s:fg_gray      .s:bg_none
+exe "hi SpecialKey"    .s:fmt_none .s:fg_dull      .s:bg_none
+exe "hi NonText"       .s:fmt_none .s:fg_dull      .s:bg_none
 exe "hi StatusLine"    .s:fmt_none .s:fg_white     .s:bg_dull
 exe "hi StatusLineNC"  .s:fmt_none .s:fg_gray      .s:bg_deep
 exe "hi Visual"        .s:fmt_none .s:fg_none      .s:bg_dull

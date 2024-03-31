@@ -91,6 +91,8 @@ exe "hi SpecialKey"    .s:fmt_none .s:fg_dull      .s:bg_none
 exe "hi NonText"       .s:fmt_none .s:fg_dull      .s:bg_none
 exe "hi StatusLine"    .s:fmt_none .s:fg_white     .s:bg_dull
 exe "hi StatusLineNC"  .s:fmt_none .s:fg_gray      .s:bg_deep
+exe "hi StatusLineTerm"    .s:fmt_none .s:fg_white     .s:bg_dull
+exe "hi StatusLineTermNC"  .s:fmt_none .s:fg_gray      .s:bg_deep
 exe "hi Visual"        .s:fmt_none .s:fg_none      .s:bg_dull
 exe "hi Directory"     .s:keyword
 exe "hi ErrorMsg"      .s:attention
